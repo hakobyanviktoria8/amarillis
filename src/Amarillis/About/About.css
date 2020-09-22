@@ -1,0 +1,57 @@
+.about{
+    margin: 1rem 8% 0;
+    display: flex;
+    width: 84%;
+    height: 29rem;
+}
+/*left side*/
+.left2{
+    width: 50%;
+    position: relative;
+}
+/*right side*/
+.right2{
+    width: 50%;
+    position: relative;
+}
+.elips1{
+    position: absolute;
+    top: 1rem;
+    left: 5rem;
+    width: 12.5rem;
+}
+.elips2{
+    position: absolute;
+    top: 11rem;
+    left: 12rem;
+    width: 15rem;
+}
+.elips3{
+    position: absolute;
+    top: 4.8rem;
+    left: 13rem;
+    width: 15rem;
+}
+.elips4{
+    position: absolute;
+    left: 1rem;
+    top: 10rem;
+    width: 18rem;
+}
+.elips5{
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+    width: 14rem;
+    z-index: -10;
+}
+
+
+
+
+
+
+
+
+
+

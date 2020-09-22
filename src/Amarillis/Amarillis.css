@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 1.5vw;
+}
+h2{
+    color: #320492;
+    font-size: 2.3rem;
+}
+h3{
+    color: #8D18AA;
+    font-size: 1.5rem;
+    margin-top: .5rem;
+}
+p{
+    font-size: .8rem;
+    margin-top: .3rem;
+}

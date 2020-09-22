@@ -1,0 +1,60 @@
+.AboutAmarilliswraper{
+    background: #FCEEFF;
+    display: flex;
+    flex-direction: column;
+    height: 29rem;
+}
+.AboutAmarillis{
+    margin: 2rem 8% 0;
+    width: 84%;
+}
+.AboutAmarillis__carts{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart{
+    display: flex;
+    width: 50%;
+    align-items: start;
+    margin-bottom: 1.5rem;
+}
+.cart img{
+    width: 5.5rem;
+}
+.cart .two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    height: 5rem;
+}
+.cart .two h3{
+    margin-top: -0.5rem;
+}
+.cart .two p{
+    /*width: 90%;*/
+}
+.AboutAmarillis__button{
+    display: flex;
+    justify-content: center;
+}
+.AboutAmarillis__button button{
+    border: none;
+    outline: none;
+    width: 18rem;
+    height: 3rem;
+    background-image: linear-gradient(to  right, #4E07E0, #B406DF);
+    border-radius: 2rem;
+    margin: 1rem auto;
+    color: white;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
