@@ -3,8 +3,10 @@ import "./Review.css";
 
 export function Review(props) {
     return(
-        <div>
-
+        <div className={"Review"}>
+            <div>
+                <h2>Reviews</h2>
+            </div>
         </div>
     )
 }

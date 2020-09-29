@@ -1,0 +1,8 @@
+.Review{
+    display: flex;
+    flex-direction: column;
+    height: 24rem;
+    /*border: 1px solid red;*/
+    margin: 2rem 8%;
+    width: 84%;
+}
