@@ -7,15 +7,16 @@ export function Header(props) {
             <div className={"navWraper"}>
                 <div className={"nav"}>
                     <div  className={"logo"}>
-                        <a href="#">
+                        <a href="/">
                             <img src={require("../img/LogoAmarillis 1.svg")} alt=""/>
                         </a>
                     </div>
                     <div className={"links"}>
-                        <div><a href="#">About</a></div>
-                        <div><a href="#">Growth</a></div>
-                        <div><a href="#">Reviws</a></div>
+                        <div><a href="#about">About</a></div>
+                        <div><a href="#grow">Growth</a></div>
+                        <div><a href="#review">Reviws</a></div>
                         <div><a href="#">Contact</a></div>
+                        <div><a href="#signin">Signin</a></div>
                     </div>
                 </div>
             </div>

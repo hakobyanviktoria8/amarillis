@@ -2,7 +2,7 @@
     background-image: linear-gradient(to top right, #4C07E0, #B406DF);
     display: flex;
     flex-direction: column;
-    height: 31rem;
+    height: 100vh;
 }
 .navWraper{
     /*background-color: black;*/

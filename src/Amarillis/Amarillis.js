@@ -6,6 +6,7 @@ import {AboutAmarillis} from "./AboutAmarillis/AboutAmarillis";
 import {Grow} from "./Grow/Grow";
 import {Review} from "./Review/Review";
 import {Footer} from "./Footer/Footer";
+import {Signin} from "./Signin/Signin";
 
 export function Amarillis(props) {
     return(
@@ -16,6 +17,7 @@ export function Amarillis(props) {
             <Grow/>
             {/**/}
             <Review/>
+            <Signin/>
             <Footer/>
         </div>
     )

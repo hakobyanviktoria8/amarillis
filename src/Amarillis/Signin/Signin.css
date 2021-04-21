@@ -1,9 +1,13 @@
-.Review{
+.SigninWraper{
+    background: #c8f7ff;
+    padding: 2rem 0;
+}
+.Signin{
     display: flex;
     flex-direction: column;
     height: 24rem;
     border: 1px solid;
-    /*border: 1px solid red;*/
+    text-align: center;
     margin: 2rem 8%;
     width: 84%;
 }

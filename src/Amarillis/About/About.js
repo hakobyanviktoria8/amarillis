@@ -3,7 +3,7 @@ import "./About.css";
 
 export function About(props) {
     return(
-        <div className={"about"}>
+        <div id="about" className={"about"}>
             <div className={"left2"}>
                 <h2>About</h2>
                 <h3>Why do we use it?</h3>

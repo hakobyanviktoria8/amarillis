@@ -3,7 +3,7 @@ import "./Grow.css";
 
 export function Grow(props) {
     return(
-        <div className={"Grow"}>
+        <div id={"grow"} className={"Grow"}>
             <div>
                 <h2>How grow Amarillysi</h2>
             </div>
