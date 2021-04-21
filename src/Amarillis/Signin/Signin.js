@@ -1,19 +1,8 @@
 import React from "react";
 import "./Signin.css";
-import TextField from '@material-ui/core/TextField';
-import { makeStyles } from '@material-ui/core/styles';
 
-const useStyles = makeStyles((theme) => ({
-    root: {
-        '& .MuiTextField-root': {
-            margin: theme.spacing(1),
-            width: 200,
-        },
-    },
-}));
 
 export function Signin(props) {
-    const classes = useStyles();
 
 
     return (
@@ -23,12 +12,10 @@ export function Signin(props) {
                     <h2>Signin</h2>
                 </div>
                 <div>
-                    <form className={classes.root} noValidate autoComplete="off">
-                        <div>
-                            <TextField  id="standard-error" label="Full name" defaultValue="" />
-
-                        </div>
-                    </form>
+                    <input type="text" placeholder={"Full name"} name={"fullname"}/> <br/>
+                    <input type="email" placeholder={"Email"} name={"email"}/> <br/>
+                    <input type="password" placeholder={"Password"} name={"password"}/> <br/>
+                    <input type="sbmit" value={"Signin"}/>
                 </div>
             </div>
         </div>
